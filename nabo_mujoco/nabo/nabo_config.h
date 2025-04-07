@@ -25,7 +25,7 @@ namespace Nabo{
 
 	struct inputStruct{
 		int cnt;
-		double cmdVx, cmdVy, cmdWz;
+		double cmdVx = -0.5, cmdVy, cmdWz;
 		double supP[3], supV[3];
 		double rpy[3], gyr[3], acc[3];
 		double j[NMot], w[NMot], t[NMot];
